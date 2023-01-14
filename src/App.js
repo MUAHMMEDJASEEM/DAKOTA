@@ -7,7 +7,7 @@ function App() {
       <h1>dakota</h1>
       <ul>
         <li>happy  luqman</li>
-        <li>cutty shahan</li>
+        <li>cute shahan</li>
         <li>motivated  haneen</li>
         <li>apple watch faiz</li>
         <li>nattil pok favas</li>
