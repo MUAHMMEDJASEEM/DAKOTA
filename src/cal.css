@@ -1,0 +1,62 @@
+body{
+    text-align:center;
+  }
+  #screen,#dispaly{
+    height:1em;
+  }
+  #one { grid-area: n1; }
+  #two { grid-area: n2; }
+  #three { grid-area: n3; }
+  #four { grid-area: n4; }
+  #five { grid-area: n5; }
+  #zero { grid-area: n0; }
+  #six { grid-area: n6; }
+  #seven { grid-area: n7; }
+  #eight { grid-area: n8; }
+  #nine { grid-area: n9; }
+  .show{ grid-area: header; }
+  #clear{grid-area: ac;}
+  #subtract{grid-area: sub;}
+  #add{grid-area: add;}
+  #divide{grid-area: div;}
+  #multiply{grid-area: mul;}
+  #decimal{grid-area: nd;}
+  #equals{grid-area: equal;}
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header '
+      'ac ac add sub '
+      'n7 n8 n9 mul '
+      'n4 n5 n6 div '
+      'n1 n2 n3 equal '
+      'n0 n0 nd equal ';
+    
+    background-color: #2196F3;
+    padding: 10px;
+    width:30%;
+    justify-content:center;
+  }
+  p{
+    
+    margin:20px;
+  }
+  #full{
+    margin:auto;
+  }
+  button{
+    min-height:30px;
+    min-width:100px;
+  }
+  #clear{
+    background:#f27979;
+  }
+  button{
+    background:#D3D3D3;
+  }
+  #equals{
+    background:#30b7ff;
+  }
+  #subtract,#add,#divide,#multiply{
+    background:gray;
+  }
