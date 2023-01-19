@@ -1,6 +1,4 @@
-
 import React from 'react';
->>>>>>> parent of fff959e (deleted)
 import './cal.css';
 class Calculator extends React.Component {
   constructor() {
